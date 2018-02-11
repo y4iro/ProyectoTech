@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>COBA PREMAZI | Nuestro Trabajo</title>
+	<link rel="shortcut icon" href="resources/images/favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="header">
+		<table>
+			<tr>
+				<th> <a href="acercade"> Acerca de </a> </th>
+				<th> <a href="productos"> Productos </a> </th>
+				<th> <a href="nuestrotrabajo"> Nuestro Trabajo </a> </th>
+				<th> <a href="contacto"> Contacto </a> </th>
+				<th> <div id="logo"> <a href="index"> <img src="resources/images/logo.png" alt="COBA PREMAZI"> </a> </div> </th>
+			</tr>
+		</table>
+		
+	</div>
+	<div id="content">
+
+
+	<div id="clientes">
+		<h1>Nuestros Clientes</h1>
+		<hr>
+		<table>
+			<tr>
+				<td> <center> <img src="resources/images/clientes/c1.png"> </center> </td>
+				<td> <center> <img src="resources/images/clientes/c2.png"> </center> </td>
+				<td> <center> <img src="resources/images/clientes/c3.png"> </center> </td>
+				<td> <center> <img src="resources/images/clientes/c4.png"> </center> </td>
+				<td> <center> <img src="resources/images/clientes/c5.png"> </center> </td>
+				<td> <center> <img src="resources/images/clientes/c6.png"> </center> </td>
+				<td> <center> <img src="resources/images/clientes/c7.png"> </center> </td>
+			</tr>
+		</table>
+		<hr>
+		<h2>Estamos listos para pintar</h2>
+	</div>
+
+	
+<p id="trabajo"></p>
+
+
+	<div id="fondo"><br></div>
+
+<script>
+var trabajo = "";
+for (i = 0; i <= 29; i++) {
+    trabajo += "<div class='trabajoA'><img class='trabajo' src='resources/images/trabajos/"+i+".jpg' > </div>";
+    if( (i+1)%5 == 0){
+    	//trabajo+= "<h1>hola</h1>";
+    }
+
+
+}
+document.getElementById("trabajo").innerHTML = trabajo;
+</script>
+
+
+	</div>
+	<div id="footer">
+		<div id="clientes">
+		<table>
+			<tr>
+				<td> <div class="m1"></div> </td>
+				<td> <div class="m2"></div> </td>
+				<td> <div class="m3"></div> </td>
+				<td> <div class="m4"> <center> LISTO </center> </div> </td>
+				<td> <div class="m5"> <center> PARA </center> </div> </td>
+				<td> <div class="m6"> <center> PINTAR </center> </div> </td>
+				<td> <div class="m7"></div> </td>
+			</tr>
+		</table>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,306 @@
+
+/* TIPOGRAFÍAS */
+
+@font-face {
+    font-family: 'gravitybold';
+    src: url('gravity-bold-webfont.woff2') format('woff2'),
+         url('gravity-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gravitybook';
+    src: url('gravity-book-webfont.woff2') format('woff2'),
+         url('gravity-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gravitylight';
+    src: url('gravity-light-webfont.woff2') format('woff2'),
+         url('gravity-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gravityregular';
+    src: url('gravity-regular-webfont.woff2') format('woff2'),
+         url('gravity-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gravityultralight';
+    src: url('gravity-ultralight-webfont.woff2') format('woff2'),
+         url('gravity-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* INDEX */
+
+body{
+    background: url("images/background.png") no-repeat;
+    background-size: 100%;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "gravitylight";
+}
+
+#header{
+    font-family: "gravitybook";
+    width: 100%;
+}
+
+#content{
+    background: url("images/bg.png") repeat;
+    padding: 20px 0px 20px 0px; 
+    width: 100%;
+}
+
+#footer{
+    font-family: "gravitybold";
+    padding: 10px 0px 10px 0px; 
+    width: 100%;
+}
+
+table, tr, th, td{
+    border: 0px solid black;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    vertical-align: text-bottom;
+}
+
+a{
+    color: #000000;
+    font-size: 18px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3994C8;
+    text-decoration: none;
+}
+
+#logo{
+    clear: both;
+    float: right;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#logo img{
+    height: 200px;
+}
+
+#clientes{
+    width: 100%;
+}
+
+#clientes td{
+    width: 10%;
+}
+
+#clientes table img{
+    height: 50px;
+}
+
+.m1 {
+     background: #5CB246;
+     border-radius: 10px 10px 0px 0px;
+     height: 30px; 
+     width: 80%; 
+}
+.m2 {
+     background: #A8C937;
+     border-radius: 10px 10px 0px 0px;
+     height: 30px; 
+     width: 80%; 
+}
+.m3 {
+     background: #FFE000;
+     border-radius: 10px 10px 0px 0px;
+     height: 30px; 
+     width: 80%; 
+}
+.m4 {
+     background: #E18227;
+     border-radius: 10px 10px 0px 0px;
+     color: #FFFFFF;
+     height: 30px; 
+     width: 80%; 
+}
+.m5 {
+     background: #D52428;
+     border-radius: 10px 10px 0px 0px;
+     color: #FFFFFF;
+     height: 30px; 
+     width: 80%; 
+}
+.m6 {
+     background: #71378E;
+     border-radius: 10px 10px 0px 0px;
+     color: #FFFFFF;
+     height: 30px; 
+     width: 80%; 
+}
+.m7 {
+     background: #3994C8;
+     border-radius: 10px 10px 0px 0px;
+     height: 30px; 
+     width: 80%; 
+}
+
+/* INDEX */
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      width: 100%;
+  }
+
+.item{
+    height: 320px;
+}
+
+.scroll{
+    width: 100%;
+    border-radius: 0px 20px 0px 20px;
+}
+
+
+h2{
+    color: #3994C8;
+    font-family: "gravitybold";
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* ACERCA DE */
+
+p{
+    font-family: "gravityregular";
+    font-size: 16px;
+    margin: 20px;
+    text-align: justify;
+}
+
+li{
+    font-family: "gravityregular";
+}
+
+h1{
+    background-color: #3994C8;
+    border-radius: 10px 10px 0px 0px;
+    font-family: "gravitybook";
+    font-size: 25px;
+    text-align: center;
+}
+
+.frase{
+    margin: 20px 50px 20px 50px;
+}
+
+
+.valores{
+	padding: 0% 5% 0% 5%;
+	width: 40%;
+}
+
+
+.valoreswp{
+    background: url("images/bg.png") repeat;
+    width: 100%;
+}
+
+
+.valores2{
+    background: url("images/background.png") repeat;
+    background-size: 100%;
+    font-family: "gravitybook";
+	margin: 5% 5% 5% 5%;
+	padding: 1% 0% 1% 0%;
+	width: 10%;
+	color: #3994C8;
+    border-radius: 0px 10px 0px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.valores3{
+	padding: 0% 5% 0% 5%;
+	width: 90%;
+}
+
+
+/* PRODUCTOS */
+
+
+.producto{
+    border-radius: 0px 20px 0px 20px;
+	margin-left: 10%;
+	width: 80%;
+}
+
+
+.pie{
+	font-size: 20px;
+	margin: 40px 20% 0% 20%; 
+}
+
+
+.cat{
+	width: 100%;
+}
+
+
+/*  CONTACTO  */
+
+.frase b{
+    margin-left: 60%;
+}
+
+#datos{
+    font-family: "gravityregular";
+}
+
+
+
+/* Nuestros Trabajo */ 
+
+.trabajoA{
+    background: url("images/bg.png") repeat;
+	height: 200px;
+	float: left;
+	width: 20%;
+}
+
+.trabajo{
+    border-radius: 0px 20px 0px 20px;
+	height: 80%;
+    margin: 10%;
+    -webkit-filter: grayscale(95%);
+    width: 80%;
+}
+
+.trabajo:hover {
+  -webkit-filter: grayscale(0%);
+	height: 90%;
+    margin: 5%;
+    width: 90%;
+}
+
+#fondo{
+	height: 1200px;
+}
+
